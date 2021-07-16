@@ -21,4 +21,4 @@ async function fetchData() {
     console.log('Job done!');
 }
 
-fetchData().then(process.exit);
+fetchData().catch(process.exit);
