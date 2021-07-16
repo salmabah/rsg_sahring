@@ -114,8 +114,7 @@ const uploadFile = () => {
     }
   };
 
-  xhr.open("POST", 
-  uploadURL);
+  xhr.open("POST", uploadURL);
   xhr.send(formData);
 };
 
